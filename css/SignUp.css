@@ -1,0 +1,122 @@
+.SignUp_content_body {
+    width: 100%;
+    margin-top: 15%;
+}
+
+.signUp_sec {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+.signupTitle {
+    display: flex;
+}
+
+.signupTitle>h3 {
+    margin: 0;
+    width: 60%;
+}
+
+.signupTitle>p {
+    margin: 0;
+    margin-left: 165px;
+    width: 40%;
+}
+
+.signUp_sec2 {
+    width: 100%;
+    display: flex;
+}
+
+.signUp_sec-1 {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.slider_message {
+    /* -webkit-appearance: none; */
+    width: 85% !important;
+    height: 35px;
+    background: #cccccc;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+
+/* .slider_message:hover {
+    opacity: 1;
+} */
+
+.sliderM {
+    margin-top: 10px;
+}
+
+#myRange1::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    /* width: 25px !important;
+    height: 35px !important; */
+    background: #00ffa2 !important;
+    cursor: pointer;
+}
+
+.birthday {
+    margin-top: 10px;
+    width: 85%;
+}
+
+.signUp_sec-2 {
+    width: 50%;
+    margin-top: 10px;
+}
+
+#sigupbtn {
+    background-color: #891151;
+    color: #ffffff;
+    border: none;
+}
+
+#sigupbtn:hover {
+    background-color: #660d3c;
+}
+
+#lgbtn {
+    background-color: #ffffff;
+    color: #891151;
+    border: 2px solid #891151;
+}
+
+#lgbtn:hover {
+    color: white;
+    background-color: #891151;
+    border: 2px solid #891151;
+}
+
+#fabtn {
+    background-color: #3B5998;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#glbtn {
+    background-color: #891151;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#fabtn:hover {
+    background-color: #2e4575;
+}
+
+#glbtn:hover {
+    background-color: #660d3c;
+}

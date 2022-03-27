@@ -1,0 +1,113 @@
+.qmall_content {
+    margin-top: 11%;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.qmall_content-sec0 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.qmall_content-sec0>a {
+    width: 32%;
+    display: inline-block;
+}
+
+.Mall-card {
+    width: 100%;
+    border: 1px solid #891151;
+}
+
+.qmall_content-sec1 {
+    width: 90%;
+    margin: auto;
+}
+
+.wrapper2 {
+    height: 100%;
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+}
+
+@media (max-width: 767px) {
+    .wrapper2 {
+        padding: 50px 10px;
+    }
+}
+
+.slick-slider {
+    min-width: 0;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+}
+
+.slider2 {
+    position: relative;
+    padding: 0px 60px;
+}
+
+@media (max-width: 767px) {
+    .slider2 {
+        padding: 0px 40px;
+    }
+}
+
+.slider2 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -20px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.slider2 .slick-arrow.slick-prev {
+    left: 0;
+    background: url("https://img.icons8.com/ios/50/000000/long-arrow-left.png") 0 0 / 100% no-repeat;
+}
+
+.slider2 .slick-arrow.slick-next {
+    right: 0;
+    background: url("https://img.icons8.com/ios/50/000000/long-arrow-right.png") 0 0 / 100% no-repeat;
+}
+
+.slider2 .slick-arrow.slick-disabled {
+    opacity: 0.2;
+}
+
+.slider2__item {
+    padding: 0px 15px;
+}
+
+.slider2__item>img {
+    opacity: 15%;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #891151;
+}
+
+.qmall_content-sec2 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}

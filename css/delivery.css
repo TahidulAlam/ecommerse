@@ -1,0 +1,47 @@
+.delivery_main {
+    width: 90%;
+    margin: auto;
+    margin-top: 15%;
+    display: flex;
+}
+
+.delivery_main_sec-1 {
+    width: 70%;
+    padding: 10px;
+}
+
+.delivery_main_sec {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.delivery_sec-1 {
+    width: 50%;
+    padding-left: 15px;
+}
+
+.delivery_sec-2 {
+    width: 50%;
+}
+
+#savebtn:hover {
+    background-color: #660d3c !important;
+}
+
+.pay_sec {
+    width: 30%;
+    background-color: white;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#paybtn1:hover {
+    background-color: #660d3c !important;
+}
+
+#applybtn1:hover {
+    background-color: #660d3c !important;
+}

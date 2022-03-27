@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+    .main_nav {
+        display: none !important;
+    }
+}
+
+.OSQ {
+    background-color: black;
+}

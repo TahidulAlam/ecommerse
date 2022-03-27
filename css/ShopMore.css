@@ -1,0 +1,67 @@
+.ShopMore {
+    width: 100%;
+    margin-top: 10.4%;
+}
+
+.section1 {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.section1-tittle {
+    display: flex;
+}
+
+.section1-tittle>p {
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box .allTime {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 3rem;
+    height: 10px;
+    font-weight: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.hrs,
+.min,
+.sec {
+    padding: 5px !important;
+    color: #891151;
+}
+
+.section-content-all {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.sNbtn>a {
+    color: #891151;
+    text-decoration: none!important;
+}
+
+div>.progress1 {
+    color: #891151 !important;
+    width: 62% !important;
+    height: 17px !important;
+}

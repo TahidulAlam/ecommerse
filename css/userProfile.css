@@ -1,0 +1,45 @@
+.userProfile {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 14%;
+    height: 600px;
+}
+
+.userProfile-sec1 {
+    width: 15%;
+}
+
+.userProfile-sec2 {
+    width: 85%;
+}
+
+.userProfile-sec21 {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.userProfile-sec212 {
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+}
+
+.userProfile-sec211 {
+    width: 29%;
+    background-color: white;
+    padding: 10px;
+    height: 180px;
+}
+
+.userProfile-sec11>p:hover a {
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    text-decoration: none;
+}
